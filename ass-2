@@ -1,0 +1,11 @@
+a=int(input())
+b=input().split()
+t=[]
+for i in b:
+    t.append(int(i))
+x=[]
+for i in t:
+    if i not in x:
+        x.append(i)
+x.sort()
+print(x[-3])
